@@ -1,0 +1,10 @@
+#head {
+    position: fixed;
+    z-index: 999999;
+    top: 15%;
+    right: 0;
+    background: white;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 0px 1px #00000014, 0px 4px 4px #0000004d;
+}

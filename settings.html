@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Conneclink</title>
+        <link rel="stylesheet" href="./popup.css" />
+    </head>
+    <body>
+        <p>Turn extension:</p>
+        <input
+            type="radio"
+            name="extension-status"
+            id="extension-on"
+            value="on"
+        />
+        <label for="extension-on">ON</label> <br />
+        <input
+            type="radio"
+            name="extension-status"
+            id="extension-off"
+            value="off"
+        />
+        <label for="extension-off">OFF</label>
+        <br />
+        <hr />
+        <label for="me">@me:</label>
+        <input type="text" id="me" name="me" />
+        <br />
+        <hr />
+        <label for="connection-message">Connection Message:</label>
+        <textarea
+            name="connection-message"
+            id="connection-message"
+            cols="30"
+            rows="10"
+        ></textarea>
+        <p>Character Count: <span id="character-count"></span></p>
+
+        <button id="save" type="button">Save</button>
+        <script src="./settings.js" type="module"></script>
+    </body>
+</html>
