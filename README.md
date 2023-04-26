@@ -9,7 +9,7 @@ mkdir myfolder
 
 cd myfolder
 
-git clone https://github.com/AnkitKachhadiya/Conneclink
+git clone https://github.com/AnkitKachhadiya/Conneclink.git
 ```
 
 -   Go to the Extensions page by entering `chrome://extensions` in a new tab.
